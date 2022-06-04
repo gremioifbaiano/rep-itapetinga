@@ -524,7 +524,7 @@
               "color": "#147b00"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#147b00"
+              "color": "#000000"
             }
           },
           "_name": "header5",
