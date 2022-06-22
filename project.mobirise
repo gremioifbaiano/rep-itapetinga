@@ -11,7 +11,7 @@
         "successColor": "#147b00",
         "infoColor": "#232323",
         "warningColor": "#ffffff",
-        "dangerColor": "#B1A374",
+        "dangerColor": "#000748",
         "mainFont": "Rubik",
         "display1Font": "Open Sans",
         "display1Size": 4.25,
@@ -64,7 +64,7 @@
     "dppsSwitcher": true,
     "spellingSwitch": true,
     "site_lang": "en",
-    "uniqCompNum": 117,
+    "uniqCompNum": 118,
     "versionPublish": "4.12.4",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/imagem2-128x128.png",
@@ -924,17 +924,36 @@
               "color": "#767676"
             },
             "H2": {
-              "color": "#000748"
+              "color": "#ffffff"
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>\n                    Links úteis</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-info-outline\" href=\"https://www.ifbaiano.edu.br/unidades/itapetinga/alunos-estagio/\" data-app-placeholder=\"Type Text\">Estágio</a> \n                    <a class=\"btn btn-black-outline\" href=\"http://suap.ifbaiano.edu.br\" data-app-placeholder=\"Type Text\">SUAP</a> <a class=\"btn btn-black-outline\" href=\"https://moodle.ifbaiano.edu.br/moodle/\" data-app-placeholder=\"Type Text\">Moodle</a> <a class=\"btn btn-black-outline\" href=\"http://itapetinga.ifbaiano.edu.br\" data-app-placeholder=\"Type Text\">Site do campus</a> <a class=\"btn btn-black-outline\" href=\"https://ifbaiano.edu.br\" data-app-placeholder=\"Type Text\">Portal do IF Baiano</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000748\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>\n                    Links úteis</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-info-outline\" href=\"https://www.ifbaiano.edu.br/unidades/itapetinga/alunos-estagio/\" data-app-placeholder=\"Type Text\">Estágio</a> \n                    <a class=\"btn btn-black-outline\" href=\"http://suap.ifbaiano.edu.br\" data-app-placeholder=\"Type Text\">SUAP</a> <a class=\"btn btn-black-outline\" href=\"https://moodle.ifbaiano.edu.br/moodle/\" data-app-placeholder=\"Type Text\">Moodle</a> <a class=\"btn btn-black-outline\" href=\"http://itapetinga.ifbaiano.edu.br\" data-app-placeholder=\"Type Text\">Site do campus</a> <a class=\"btn btn-black-outline\" href=\"https://ifbaiano.edu.br\" data-app-placeholder=\"Type Text\">Portal do IF Baiano</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "t9wOX7ronZ",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "content4-38"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><a href=\"https://www.ifbaiano.edu.br/unidades/itapetinga/alunos-estagio/\" class=\"text-danger\"><b>Estágio</b></a></p><p><a href=\"http://suap.ifbaiano.edu.br\" class=\"text-danger\"><b>SUAP</b></a></p><p><a href=\"http://itapetinga.ifbaiano.edu.br\" class=\"text-danger\"><b>Site do Campus</b></a></p><p><a href=\"https://ifbaiano.edu.br\" class=\"text-danger\"><b>Portal do IF Baiano</b></a></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t9wRFSrypX",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-39"
         },
         {
           "alias": false,
