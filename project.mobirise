@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Revolucionar, Evoluir e Progredir",
-    "currentPage": "index.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -67,7 +67,7 @@
     "uniqCompNum": 113,
     "versionPublish": "4.12.4",
     "imageResize": true,
-    "favicon": "@PROJECT_PATH@/assets/images/imagem1-128x116-1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/imagem2-128x128.png",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -1186,7 +1186,7 @@
               "color": "#767676"
             },
             ".mbr-author-name": {
-              "color": "#b04b00"
+              "color": "#000748"
             },
             ".mbr-testimonial": {
               ".panel-item": {
@@ -1265,7 +1265,7 @@
               "color": "#767676"
             },
             ".mbr-author-name": {
-              "color": "#b04b00"
+              "color": "#000748"
             },
             ".mbr-testimonial": {
               ".panel-item": {
@@ -1342,7 +1342,7 @@
               "text-align": "center"
             },
             ".mbr-author-name": {
-              "color": "#b04b00"
+              "color": "#000748"
             },
             ".mbr-testimonial": {
               ".panel-item": {
@@ -1430,7 +1430,7 @@
               }
             },
             ".mbr-text": {
-              "color": "#b04b00"
+              "color": "#000748"
             }
           },
           "_name": "content7",
